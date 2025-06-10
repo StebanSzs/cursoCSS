@@ -1,0 +1,42 @@
+/* Selectores */
+
+/* 
+Selectores simples
+    Selectores elementales
+        Selector universal -> *
+        selector de tipo -> h1, p, div, etc.
+    Selectores de atributo
+        id -> id elemento
+        class -> .clase
+Selectores compuestos
+    Selectores agrupados
+    Selectores combinadores
+    Pseudo-clases
+    Pseudo-elementos
+*/
+
+/* *{
+    background-color: bisque;
+}
+h1{
+    background-color: lightblue;
+}
+p{
+    background-color: lightgreen;
+}
+ul{
+    background-color: lightcoral;
+}
+li{
+    background-color: lightyellow;
+} */
+
+#title{
+    background-color: lightblue;
+}
+.title{
+    background-color: lightyellow;
+}
+.text{
+    background-color: lightgreen;
+}
