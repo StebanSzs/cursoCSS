@@ -1,0 +1,9 @@
+
+/* Seleccionar solo los p hijos directos de .container */
+.container > p {
+    background-color: tomato;
+}
+/* Seleccionar todos los p que son descendientes de .container */
+.container p {
+    background-color: lightblue;
+}
