@@ -19,6 +19,9 @@ Selectores simples
 Selectores compuestos
     Selectores agrupados -> se agrupan los selectores separados por comas y se escribe el estilo una sola vez
     Selectores combinadores 
+        Selector descendiente -> div p
+        Selector de hermano siguiente -> h1 + p
+        Selector de hermanos siguientes -> h1 ~ p
     Pseudo-clases
     Pseudo-elementos
 */
@@ -73,6 +76,12 @@ li{
     background-color: lightgreen;
 } */
 
-div .title-2 {
+/* div .title-2 {
     background-color: lightblue;
-}
+} */
+/* .text-2 + .title-2 {
+    background-color: lightcoral;
+ } */
+ .text-2 ~ p {
+    background-color: lightyellow;
+    }
